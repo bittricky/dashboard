@@ -2,8 +2,9 @@ import React from 'react';
 
 import AppLayout from './AppLayout';
 import {AppProvider} from './AppProvider';
+import AppBar from './AppBar';
 
-import AppBar from './components/AppBar';
+import Settings from './Settings';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <AppLayout>
       <AppProvider>
         <AppBar />
+        <Settings />
       </AppProvider>
     </AppLayout>
   );
