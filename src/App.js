@@ -6,13 +6,17 @@ import AppBar from './AppBar';
 
 import Settings from './Settings';
 
+import Content from './Shared/Content';
+
 
 function App() {
   return (
     <AppLayout>
       <AppProvider>
         <AppBar />
-        <Settings />
+        <Content>
+          <Settings />
+        </Content>
       </AppProvider>
     </AppLayout>
   );
