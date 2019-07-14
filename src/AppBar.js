@@ -17,7 +17,9 @@ const ControlButtonElem = styled.div`
   cursor: pointer;
   ${
     props => props.active && css`
-      text-shadow: 0px 0px 60px #03ff03;
+      text-decoration-style: solid;
+      text-decoration: underline;
+      text-underline-position: under;
    `}
 `;
 
