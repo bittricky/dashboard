@@ -26,10 +26,12 @@ export default function({coinKey, topSection}) {
       TileClass = DisabledTile;
     }
 
-    return <TileClass onClick={clickCoinHandler(topSection, coinKey, addCoin, removeCoin)}>
-      <CoinImage coin={coin} />
-      <CoinHeaderGrid name={coin.CoinName} symbol={coin.Symbol} topSection={topSection}/>
-    </TileClass>
+    return (
+      <TileClass onClick={clickCoinHandler(topSection, coinKey, addCoin, removeCoin)}>
+        <CoinImage coin={coin} />
+        <CoinHeaderGrid name={coin.CoinName} symbol={coin.Symbol} topSection={topSection}/>
+      </TileClass>
+    )
   }}
   </AppContext.Consumer>
 }
