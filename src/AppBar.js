@@ -42,10 +42,12 @@ function ControlButton({name}) {
 }
 
 export default function () {
-  return <Bar>
-            <Logo>Coin</Logo>
-            <div />
-            <ControlButton active name="dashboard" />
-            <ControlButton name="settings" />
-         </Bar>
+  return (
+    <Bar>
+      <Logo>Coin</Logo>
+      <div />
+      <ControlButton active name="dashboard" />
+      <ControlButton name="settings" />
+   </Bar>
+  )
 }
