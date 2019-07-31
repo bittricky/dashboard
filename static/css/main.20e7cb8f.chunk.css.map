@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,wBAAyB,CACzB,UAAY,CACZ,QAAS,CACT,+BACF","file":"main.20e7cb8f.chunk.css","sourcesContent":["body {\n  background-color: #010e2c;\n  color: #ffff;\n  margin: 0;\n  font-family: 'Do Hyeon', sans-serif;\n}\n"]}

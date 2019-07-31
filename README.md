@@ -1,3 +1,0 @@
-# Dashboard
-
-> Simple Cryptocurrency dashboard
